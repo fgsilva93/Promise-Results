@@ -31,3 +31,11 @@ Covalence
 That's pretty much it when it comes to using Promises. If you want to keep working, you can play around with different values, construct your own chain, etc.
 
 You can also try adjusting the code to print the output to the web page instead of the developer console.
+
+## Async/Await
+Perform the exact same operations as above, except using the ES6 async/await syntax.
+
+* Comment out the previous code you wrote.
+* Write an asynchronous function named `doMath()` that you will invoke to execute the slowMath operations to get 42 via the same steps as above.
+* Remember to wrap your `await` promise chains in a try/catch block.
+* Only use `async/await`, no `.then()` is needed in this part!
