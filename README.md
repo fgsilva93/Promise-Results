@@ -11,7 +11,7 @@ Covalence
     * `slowMath.divide(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the result of dividing `val1` by `val2`. Rejects if `val1` or `val2` are negative numbers, or if `val2` is zero.
     * `slowMath.remainder(val1, val2)`- Returns a Promise that waits 1 second, and then resolves with the remainder after dividing `val1` by `val2`. Rejects if `val1` or `val2` are negative numbers, or if `val2` is zero.
 
-## Objectives
+## Promise.then() Chaining
 1. Create your own JavaScript file in which to write your code, and import it into your index.html file BELOW the import for `async-math.js`.
 2. In your JavaScript file, create a Promise chain that uses SlowMath to perform all of the following operations, in this exact order:
     1. Add together 6 and 2.

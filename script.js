@@ -1,3 +1,5 @@
+// Promise.then() Chaining//
+
 slowMath.add(6,2) // use (1,1) to see the error results
 .then((sum1) => {
     console.log(sum1);
